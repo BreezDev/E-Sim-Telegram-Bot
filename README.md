@@ -33,13 +33,17 @@ To install the required libraries, run:
 
 ```bash
 pip install pytelegrambotapi requests
+```
 
 ## Clone the Repository
 Clone this repository and navigate to the project directory:
 
+
 ```bash
 git clone https://github.com/breezdev-username/telegram-virtual-phone-bot](https://github.com/BreezDev/E-Sim-Telegram-Bot.git
+
 cd E-Sim-Telegram-Bot
+```
 
 ## Database Setup
 Ensure that the SQLite database (`US.db`) is set up with the required tables. You can modify or initialize the database in the `dbase.py` file if needed.
@@ -57,6 +61,7 @@ Place these tokens inside the bot script where indicated:
 bot = telebot.TeleBot("bot-token-here")
 token = "yourtokenfrom5sim.net"
 poof_id = "yourapitokenfrompoof.io"
+```
 
 ## Usage
 
