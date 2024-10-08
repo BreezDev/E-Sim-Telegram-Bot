@@ -233,7 +233,7 @@ def handle_payment(call, amount, crypto):
         print(key, ":", value)
     try:
         invoice = (
-            f"📦 *REBEL CODES BOT*\n\n📂 Invoice ID - {userid}\n\n"
+            f"📦 *{bot_name}*\n\n📂 Invoice ID - {userid}\n\n"
             f"💎 TX ID: {var2}\n\n🔑 Address:\n\n`{address}`\n\n"
             f"💵 Amount: `{amount} USD worth of {crypto}`\n"
             f"💸 Charge: `{charge}`\n🔗 Payment Link: [Click Here]({payment_link})\n"
